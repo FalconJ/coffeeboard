@@ -7,7 +7,7 @@ function publicar(){
 	var data = {
 		nombre		: $("#vendonombre").val(),
 		descripcion : $("#vendoDescripcion").val(),
-		categoria 	: $("#vendoCategoria").val(),
+		categoria 	: Number($("#vendoCategoria").val()),
 	};
 
 	console.log(data.nombre, " ", data.descripcion, " ", data.categoria, " ", data.fecha);
