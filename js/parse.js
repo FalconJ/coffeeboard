@@ -1,9 +1,9 @@
 Parse.initialize("I7CHTBcgr31hehQp0QFRothSxnW5Dsa8W8GoUEzQ", "NO8ucTyA8ow5z6VejHd5u1PgABWPBBgdXKNWlfLS");
 
 function registerUser(){
-	var email = document.getElementById('inputEmail').value;
-	var pass  = document.getElementById('inputPass').value;
-	var passConf = document.getElementById('confPass').value;
+	var email = document.getElementById('regEmail').value;
+	var pass  = document.getElementById('regPass').value;
+	var passConf = document.getElementById('confRegPass').value;
 
 
 	var currentUser = Parse.User.current();
