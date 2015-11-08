@@ -1,6 +1,6 @@
 Parse.initialize("I7CHTBcgr31hehQp0QFRothSxnW5Dsa8W8GoUEzQ", "NO8ucTyA8ow5z6VejHd5u1PgABWPBBgdXKNWlfLS");
 
-var ParseObj = Parse.Object.extend("Pedidos");
+var ParseObj = Parse.Object.extend('Pedidos');
 
 function publicar(){
 	var date = new Date();
@@ -11,6 +11,8 @@ function publicar(){
 		categoria 	: $("#vendoCategoria").val(),
 		fecha	  	: date,
 	};
+
+	console.log(data.nombre, " ", data.descripcion, " ", data.categoria, " ", data.fecha);
 
 	parseObj = new ParseObj();
 
