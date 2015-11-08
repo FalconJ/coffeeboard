@@ -53,19 +53,19 @@
 
 	<div class="vendo">
     <form id="vendoForm">
-  		<label for="Nombre" class="label-text"> <h1> Nombre:</h1></label>
+  		<label for="Nombre" class="label-text"> <h3> Nombre:</h3></label>
   		<input type="text" placeholder="Nombre" id="vendonombre" value=""><br>
 
-  		<label for="description" class="label-text">Descripcion:</label> 
+  		<label for="description" class="label-text"><h3>Descripcion:</h3></label> 
 	    <textarea rows="2" cols="25" id="vendoDescripcion"></textarea> <br>
   		
-      <label for="categoria" class="label-text">Categoria:</label>
+      <label for="categoria" class="label-text"><h3>Categoria:</h3></label>
   		<select id="vendoCategoria" placeholder="No selection">
-  			<option value="1"> Artes</option>
-  			<option value="2"> Deportes </option>
-  			<option value="3"> Tecnologia </option>
-  			<option value="4"> Ciencias </option>
-  			<option value="5"> Varios </option>
+  			<option value="1"> <h4>Artes</h4></option>
+  			<option value="2"> <h4>Deportes</h4> </option>
+  			<option value="3"> <h4>Tecnologia</h4> </option>
+  			<option value="4"> <h4>Ciencias</h4> </option>
+  			<option value="5"> <h4>Varios </h4></option>
   		</select><br>
   		<input id="submit" type="submit" onclick="event.preventDefault(); publicar()"><br>
     </form>
