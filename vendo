@@ -6,19 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Coffe Board</title>
 <body>
+	<div class="navbar-wrapper">
+        <div class="container">
+        <nav id="navbar" class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapsible">
+                <ul class="nav navbar-nav navbar-left">
+                   
+                    <li><a href="#homel">Home</a></li>
+                    <li><a href="#pedidos">Pedidos</a></li>
+                    <li><a href="#encargos">Encargos</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                </ul>
+                <ul class="nav navbar-nav" style="float: right">
+                  <li><a style="background-color: red; color: white; font-weight:bold" onclick="logOut();">Log Out</a></li>
+                  <li>&nbsp;</li>
+                </ul>
+            </div>
+        </div>
+     </nav>
+   </div>
+ </div>
+
 	<div id="vendo">
-	<label for="Nombre" class="label-text"> Nombre:</label>
-	<input type="text" placeholder="Nombre" id="vendonombre" value=""> <br>
-	<label for="description" class="label-text">Description:</label> 
-    <textarea rows="2" cols="25" id="personDescription"></textarea> <br>
-	<input type="text" placeholder="Descripcion" id="vendodescr" value=""> <br>
-	<select id="Categoria" placeholder="No selection">
-		<option value="1"> artes</option>
-		<option value="2"> deportes </option>
-		<option value="3"> tecnologia </option>
-		<option value="4"> ciencias </option>
-		<option value="5">  varios </option>
-	</select> <br>
-	<input id="submit" type="submit" onclick="event.busqueda()">
-		<br>
-	</div>	
+		<label for="Nombre" class="label-text"> Nombre:</label>
+		<input type="text" placeholder="Nombre" id="vendonombre" value=""> <br>
+		<label for="description" class="label-text">Descripcion:</label> 
+	    <textarea rows="2" cols="25" id="personDescription"></textarea> <br>
+		<input type="text" placeholder="Descripcion" id="vendodescr" value=""> <br>
+		<select id="Categoria" placeholder="No selection">
+			<option value="1"> artes</option>
+			<option value="2"> deportes </option>
+			<option value="3"> tecnologia </option>
+			<option value="4"> ciencias </option>
+			<option value="5">  varios </option>
+		</select> <br>
+		<input id="submit" type="submit" onclick="event.preventDefault(); ">
+			<br>
+	</div>
+</body>	
