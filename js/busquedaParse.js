@@ -25,7 +25,7 @@ function updateinfo(data){
 	var table=$("#informacion");
 	table.html('');
 	$.each(data.results, function (index, value) {
-		var trEl=$('<tr><td>'+value.nombre+'</td><td>'+value.descripcion+'</td><td>'+value.dategoria+'</td></tr>');	
+		var trEl=$('<tr><td>'+value.nombre+'</td><td>'+value.descripcion+'</td><td>'+value.categoria+'</td></tr>');	
 		table.append(trEl);		
 	});
 }
