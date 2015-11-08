@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Coffe Board</title>
+  <script type="text/javascript" href=""></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    
+    <a href="#pregunta1">¿Cuanto hay que pagar por publicar mi oferta?</a>
+          <a href="#pregunta2"> ¿Como se si mi vendedor/comprador es estudiante? </a>
+        </div>
+
+        <div id="" class="col-lg-6"5>
+
+        </div>
+    </div>
+  </div>
+  <div id="pregunta1">
+    <h1> ¿Cuanto hay que pagar por publicar mi oferta?</h1>
+    <p> El publicar tu anuncio es totalmente gratis</p>
+  </div>
+  <div id="pregunta2">
+    <h1> ¿Como se si mi vendedor/comprador es estudiante?</h1>
+    <p> Al registrarse todos deben validar que son estudiantes a traves de sus cuentas de correo con universidades </p>
+  </div>
+  <div id="pregunta3">
+    <h1>¿Como se si sigue en existencia?</h1>
+    <p> 
+
+<!-- Include Header JS -->
+<script type="text/javascript" src="headerJoinScript.js"></script>
+</body>
+</html>
