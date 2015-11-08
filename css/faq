@@ -9,42 +9,55 @@
   <script type="text/javascript" href=""></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
+  <nav class="navbar navbar-inverted">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Home</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Log In</a></li>
+      </div>
+  </div>
+</nav>
+<div class="heading">
+  <h1>Preguntas Frecuentes</h1>
+</div>
   <div class="container">
-    
-    <a href="#pregunta1">¿Cuanto hay que pagar por publicar mi oferta?</a>
-          <a href="#pregunta2"> ¿Como se si mi vendedor/comprador es estudiante? </a>
-        </div>
-
-        <div id="" class="col-lg-6"5>
-
-        </div>
-    </div>
+    <a href="#pregunta1">¿Cuanto hay que pagar por publicar mi oferta?</a><br>
+    <a href="#pregunta2">¿Como se si mi vendedor/comprador es estudiante?</a><br>
+    <a href="#pregunta3">¿Como se si sigue en existencia?</a><br>
+  </div>
+  <div id="" class="col-lg-6"5>
   </div>
   <div id="pregunta1">
-    <h1> ¿Cuanto hay que pagar por publicar mi oferta?</h1>
-    <p> El publicar tu anuncio es totalmente gratis. </p>
+    <h3>¿Cuanto hay que pagar por publicar mi oferta?</h3>
+    <p> El publicar tu anuncio es totalmente gratis</p>
   </div>
   <div id="pregunta2">
-    <h1> ¿Como se si mi vendedor/comprador es estudiante?</h1>
-    <p> Al registrarse todos deben validar que son estudiantes a traves de sus cuentas de correo con universidades. </p>
+    <h3> ¿Como se si mi vendedor/comprador es estudiante?</h3>
+    <p> Al registrarse todos deben validar que son estudiantes a traves de sus cuentas de correo con universidades </p>
   </div>
   <div id="pregunta3">
-    <h1>¿Como se si sigue en existencia?</h1>
-    <p> Se actualizara la informacion, por lo que el libro ya no aparecera como en venta. </p>\
-    </div>
-    <div id="pregunta4">
-  <h1>¿Como me pongo en contacto con el vendedor?</h1>
-  <p> Al momento de ver la informacion vendra con algun numero/ red social para que se ponga en contacto directo. 
-</div>
- <div id="pregunta5">
-  <h1>¿Cuanto tiempo duraria mi publicacion?</h1>
-  <p> Hasta que sea vendido lo que se publico. </p>\
+    <h3>¿Como se si sigue en existencia?</h3>
+    <p> Se actualizara la informacion, por lo que el libro ya no aparecera como en venta.</p>
+  <div id="pregunta4">
+    <h3>¿Como me pongo en contacto con el vendedor?</h3>
+    <p> Al momento de ver la informacion vendra con algun numero/ red social para que se ponga en contacto directo.</p> 
   </div>
-
-
-<!-- Include Header JS -->
+  <div id="pregunta5">
+    <h3>¿Cuanto tiempo duraria mi publicacion?</h3>
+    <p>Hasta que sea vendido lo que se publico.</p>
+  </div>
 <script type="text/javascript" src="headerJoinScript.js"></script>
 </body>
 </html>
