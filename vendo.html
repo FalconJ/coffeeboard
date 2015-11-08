@@ -46,19 +46,23 @@
  </div>
 
 	<div class="vendo">
-		<label for="Nombre" class="label-text"> Nombre:</label>
-		<input type="text" placeholder="Nombre" id="vendonombre" value=""> <br>
-		<label for="description" class="label-text">Descripcion:</label> 
-	    <textarea rows="2" cols="25" id="personDescription"></textarea> <br>
-		<label for="categoria" class="label-text">Categoria:</label>
-		<select id="Categoria" placeholder="No selection">
-			<option value="1"> Artes</option>
-			<option value="2"> Deportes </option>
-			<option value="3"> Tecnologia </option>
-			<option value="4"> Ciencias </option>
-			<option value="5"> Varios </option>
-		</select> <br>
-		<input id="submit" type="submit" onclick="event.preventDefault(); ">
-			<br>
+    <form id="vendoForm">
+  		<label for="Nombre" class="label-text"> Nombre:</label>
+  		<input type="text" placeholder="Nombre" id="vendonombre" value=""><br>
+
+  		<label for="description" class="label-text">Descripcion:</label> 
+	    <textarea rows="2" cols="25" id="vendoDescripcion"></textarea> <br>
+  		
+      <label for="categoria" class="label-text">Categoria:</label>
+  		<select id="vendoCategoria" placeholder="No selection">
+  			<option value="1"> Artes</option>
+  			<option value="2"> Deportes </option>
+  			<option value="3"> Tecnologia </option>
+  			<option value="4"> Ciencias </option>
+  			<option value="5"> Varios </option>
+  		</select><br>
+  		<input id="submit" type="submit" onclick="event.preventDefault(); publicar()"><br>
+    </form>
 	</div>
+  
 </body>	
