@@ -24,15 +24,25 @@
   </div>
   <div id="pregunta1">
     <h1> ¿Cuanto hay que pagar por publicar mi oferta?</h1>
-    <p> El publicar tu anuncio es totalmente gratis</p>
+    <p> El publicar tu anuncio es totalmente gratis. </p>
   </div>
   <div id="pregunta2">
     <h1> ¿Como se si mi vendedor/comprador es estudiante?</h1>
-    <p> Al registrarse todos deben validar que son estudiantes a traves de sus cuentas de correo con universidades </p>
+    <p> Al registrarse todos deben validar que son estudiantes a traves de sus cuentas de correo con universidades. </p>
   </div>
   <div id="pregunta3">
     <h1>¿Como se si sigue en existencia?</h1>
-    <p> 
+    <p> Se actualizara la informacion, por lo que el libro ya no aparecera como en venta. </p>\
+    </div>
+    <div id="pregunta4">
+  <h1>¿Como me pongo en contacto con el vendedor?</h1>
+  <p> Al momento de ver la informacion vendra con algun numero/ red social para que se ponga en contacto directo. 
+</div>
+ <div id="pregunta5">
+  <h1>¿Cuanto tiempo duraria mi publicacion?</h1>
+  <p> Hasta que sea vendido lo que se publico. </p>\
+  </div>
+
 
 <!-- Include Header JS -->
 <script type="text/javascript" src="headerJoinScript.js"></script>
