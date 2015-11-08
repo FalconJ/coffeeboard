@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -6,17 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Coffe Board</title>
-  <script type="text/javascript" href=""></script>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
   <div class="container">
     <div class="main col-lg-9 myHalfCol">
         <div class="col-lg-6">
-          <a href="#pregunta1">LINK</a>
+          <form class="form-signin">
+          <h2 class="form-signin-heading">Ingrese a tu cuenta</h2>
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
         </div>
 
         <div id="" class="col-lg-6">
+        </div>
 
         </div>
     </div>
@@ -27,7 +41,7 @@
     <p> respuests </p>
   </div>
 
-<!-- Include Header JS -->
-<script type="text/javascript" src="headerJoinScript.js"></script>
+  <!-- Include Header JS -->
+  <script type="text/javascript" src="../js/headerJoinScript.js"></script>
 </body>
 </html>
