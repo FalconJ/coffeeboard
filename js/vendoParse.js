@@ -6,9 +6,9 @@ function publicar(){
 	var date = new Date();
 
 	var data = {
-		nombre		: $("vendonombre").val(),
-		descripcion : $("vendoDescripcion").val(),
-		categoria 	: $("vendoCategoria").val(),
+		nombre		: $("#vendonombre").val(),
+		descripcion : $("#vendoDescripcion").val(),
+		categoria 	: $("#vendoCategoria").val(),
 		fecha	  	: date,
 	};
 
