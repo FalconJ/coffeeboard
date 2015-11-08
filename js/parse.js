@@ -16,6 +16,7 @@ function registerUser(){
     if(pass === passConf){
     	user.set("password", pass);
     	user.set("username", email);
+    	user.set("email", email);
 
     	user.signUp(null, {
     		success: function(user){
