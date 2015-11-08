@@ -20,7 +20,7 @@ function publicar(){
 		success: function(){
 			console.log("info saved");
 		},
-		error: function(){
+		error: function(error){
 			console.log("info failed");
 			alert("Erro: " + error.message);
 		}
