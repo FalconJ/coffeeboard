@@ -17,6 +17,7 @@ function registerUser(){
     	user.set("password", pass);
     	user.set("username", email);
     	user.set("email", email);
+    	console.log(pass, " ", email);
 
     	user.signUp(null, {
     		success: function(user){
