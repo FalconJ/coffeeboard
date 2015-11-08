@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coffe Board</title>
+<body>
+	<div id="vendo">
+	<label for="Nombre" class="label-text"> Nombre:</label>
+	<input type="text" placeholder="Nombre" id="vendonombre" value=""> <br>
+	<label for="description" class="label-text">Description:</label> 
+    <textarea rows="2" cols="25" id="personDescription"></textarea> <br>
+	<input type="text" placeholder="Descripcion" id="vendodescr" value=""> <br>
+	<select id="Categoria" placeholder="No selection">
+		<option value="1"> artes</option>
+		<option value="2"> deportes </option>
+		<option value="3"> tecnologia </option>
+		<option value="4"> ciencias </option>
+		<option value="5">  varios </option>
+	</select> <br>
+	<input id="submit" type="submit" onclick="event.busqueda()">
+		<br>
+	</div>	
