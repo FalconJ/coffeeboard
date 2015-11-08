@@ -1,5 +1,6 @@
 Parse.initialize("I7CHTBcgr31hehQp0QFRothSxnW5Dsa8W8GoUEzQ", "NO8ucTyA8ow5z6VejHd5u1PgABWPBBgdXKNWlfLS");
-
+var parseID  = "I7CHTBcgr31hehQp0QFRothSxnW5Dsa8W8GoUEzQ";
+var parseKey = "c3CgDJmkgWLKQvpTOntKxdgYQ5NysNxRGiDq7CJP";
 var ParseObj = Parse.Object.extend('Pedidos');
 
 function publicar(){
