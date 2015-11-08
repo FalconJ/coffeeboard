@@ -42,18 +42,13 @@ function logIn(){
         Parse.User.logOut();
     } 
 
-    var user = new Parse.User();
-
-    user.set("password", pass);
-    user.set("username", email);
-
-    user.logIn(null, {
-    	success: function(){
-    		window.location = "home.html";
-    	},
-    	error: function(){
-    		alert("User doesn't exist, try again");
-    		$("#logIn")[0].reset();
-    	}
-    })
+	Parse.User.logIn(email, pass, {
+		success: function(){
+			console.log("Welcome back bro");
+	    	window.location = "home.html";
+		},
+		error: function(user, error){
+			alert("Error: " + error.message);
+		}
+	});
 }
