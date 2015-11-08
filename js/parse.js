@@ -17,7 +17,6 @@ function registerUser(){
     	user.set("password", pass);
     	user.set("username", email);
     	user.set("email", email);
-    	console.log(pass, " ", email);
 
     	user.signUp(null, {
     		success: function(user){
@@ -32,5 +31,29 @@ function registerUser(){
     	alert("Passwords do not match");
     	$("#register")[0].reset();
     }
-    
+}
+
+function logIn(){
+	var email = document.getElementById('inputEmail').value;
+	var pass  = document.getElementById('inputPassword').value;
+
+	var currentUser = Parse.User.current();
+	if (currentUser) {
+        Parse.User.logOut();
+    } 
+
+    var user = new Parse.User();
+
+    user.set("password", pass);
+    uset.email("username", email);
+
+    user.logIn(null, {
+    	success: function(){
+    		window.location = "home.html";
+    	},
+    	error: function(){
+    		alert("User doesn't exist, try again");
+    		$("#logIn")[0].reset();
+    	}
+    })
 }

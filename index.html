@@ -66,18 +66,18 @@
   <div id="topLogin" class="container">
     <div class="main col-lg-9 myHalfCol">
         <div class="col-lg-6">
-          <form class="form-signin-heading">
+          <form id="logIn" class="form-signin-heading">
             <h2 class="form-signin-heading">Ingrese a tu cuenta</h2>
             <label for="inputEmail" class="">Correo electronico</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="john_lee@xyz.edu" required autofocus>
             <label for="inputPassword" class="">Contrasena</label>
             <input type="password" id="inputPassword" class="form-control" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required>
             <br>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesion</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="event.preventDefault(); logIn()">Iniciar Sesion</button>
           </form>
         </div>
         <div class="col-lg-6">
-          <form id="register">
+          <form id="register" class="form-signin-heading"s>
             <h2 class="form-signin-heading">Registrate</h2>
             <label for="regEmail" class="">Correo electronico</label>
             <input type="email" id="regEmail" class="form-control" placeholder="john_lee@xyz.edu" required autofocus>
