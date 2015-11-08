@@ -9,7 +9,7 @@ function publicar(){
 		nombre		: $("vendonombre").val(),
 		descripcion : $("vendoDescripcion").val(),
 		categoria 	: $("vendoCategoria").val(),
-		fecha	  	: date;
+		fecha	  	: date,
 	};
 
 	parseObj = new ParseObj();
