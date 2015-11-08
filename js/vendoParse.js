@@ -3,7 +3,7 @@ Parse.initialize("I7CHTBcgr31hehQp0QFRothSxnW5Dsa8W8GoUEzQ", "NO8ucTyA8ow5z6VejH
 var ParseObj = Parse.Object.extend("Pedidos");
 
 function publicar(){
-	var date = new Date(day, month, year);
+	var date = new Date();
 
 	var data = {
 		nombre		: $("vendonombre").val(),
