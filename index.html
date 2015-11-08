@@ -10,8 +10,12 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/carousel.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
+
   <!-- Include jQuery -->
     <script type="text/javascript" src="js/jquery.js"></script>
+
+  <!-- Include Parse -->
+    <script type="text/javascript" src="js/parse.js"></script>
 </head>
 
 <body>
@@ -70,14 +74,14 @@
           </form>
         </div>
         <div class="col-lg-6">
-          <form class="">
+          <form id="register">
             <h2 class="form-signin-heading">Registrate</h2>
             <label for="inputEmail" class="">Correo electronico</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="john_lee@xyz.edu" required autofocus>
             <label for="inputPassword" class="">Contrasena</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required>
+            <input type="password" id="inputPass" class="form-control" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required>
             <label for="confirmPassword" class="">Contrasena</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required>
+            <input type="password" id="confPass" class="form-control" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required>
             <br>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Registrarse</button>
           </form>
