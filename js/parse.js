@@ -45,7 +45,7 @@ function logIn(){
     var user = new Parse.User();
 
     user.set("password", pass);
-    uset.set("username", email);
+    user.set("username", email);
 
     user.logIn(null, {
     	success: function(){
